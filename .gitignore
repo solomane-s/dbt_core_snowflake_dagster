@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Dagster (ignorer caches et builds)
+dagster_config/__pycache__/
+dagster_config/*.egg-info/
+dagster_config/build/
+dagster_config/dist/
+dagster_config/.tmp*
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# DBT
+target/
+dbt_packages/
+logs/
+
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+
+profiles.yml
+.user.yml
