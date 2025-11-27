@@ -1,11 +1,11 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="dagster_config",
+    name="orchestration",
     version="0.0.1",
     packages=find_packages(),
     package_data={
-        "dagster_config": [
+        "orchestration": [
             "dbt-project/**/*",
         ],
     },

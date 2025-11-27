@@ -15,12 +15,11 @@ dist/
 *.tmp
 
 # Dagster (ignorer caches et builds)
-dagster_config/__pycache__/
-dagster_config/*.egg-info/
-dagster_config/build/
-dagster_config/dist/
-dagster_config/.tmp*
-
+orchestration/__pycache__/
+orchestration/*.egg-info/
+orchestration/build/
+orchestration/dist/
+orchestration/.tmp*
 # VSCode
 .vscode/
 

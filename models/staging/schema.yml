@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: raw
+  - name: RAW
     database: RAW
-    schema: SNF_DATA_CO_SUPPLY_CHAIN
+    schema: SNF_IMPORT
     tables:
-      - name: data_co_supply_chain_dataset
+      - name: SNF_DATA_CO_SUPPLY_CHAIN_DATASET
