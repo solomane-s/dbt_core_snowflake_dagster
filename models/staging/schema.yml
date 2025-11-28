@@ -5,4 +5,4 @@ sources:
     database: RAW
     schema: SNF_IMPORT
     tables:
-      - name: SNF_DATA_CO_SUPPLY_CHAIN_DATASET
+      - name: SUPPLY_CHAIN_DATASET

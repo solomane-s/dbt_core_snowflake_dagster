@@ -5,7 +5,7 @@
 with source as (
 
     select *
-    from {{ source('RAW', 'SNF_DATA_CO_SUPPLY_CHAIN_DATASET') }}
+    from {{ source('RAW', 'SUPPLY_CHAIN_DATASET') }}
 
 ),
 
